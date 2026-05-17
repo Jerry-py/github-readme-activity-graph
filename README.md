@@ -14,31 +14,31 @@ A dynamically generated activity graph to show your GitHub activities of last 31
 
 ### ⚠️ NOTICE: DEPLOYMENT MOVED ⚠️
 
-The deployment of this project is moved from `https://activity-graph.herokuapp.com` domain to `https://github-readme-activity-graph.cyclic.app`. In case `https://github-readme-activity-graph.cyclic.app` doesn't work try with `https://github-readme-activity-graph.vercel.app` for more details, refer [this](https://github.com/Ashutosh00710/github-readme-activity-graph/issues/197#issuecomment-1560633754)
+The canonical deployment is now `https://github-readme-activity-graph.vercel.app`. Previous deployments at `https://activity-graph.herokuapp.com` (Heroku free tier discontinued) and `https://github-readme-activity-graph.cyclic.app` (Cyclic.sh shut down in early 2025) are no longer reachable. For background see [issue #197](https://github.com/Ashutosh00710/github-readme-activity-graph/issues/197#issuecomment-1560633754).
 
 Please refer to the updated link [here](#how-to-use)
 
 ## Table of contents
 
--   [Table of contents](#table-of-contents)
--   [How to Use](#how-to-use)
-    -   [Attention ⚠](#attention-)
--   [Use themes](#use-themes)
--   [Available Themes](#available-themes)
--   [Customization](#customization)
-    -   [Common Options](#common-options)
--   [Deploy on your own Replit instance](#deploy-on-your-own-replit-instance)
-    -   [Follow the steps](#follow-the-steps)
--   [Deploy on your own Vercel instance](#deploy-on-your-own-vercel-instance)
-    -   [First Method](#first-method)
-    -   [Second Method](#second-method)
-    -   [Finally](#finally)
--   [Contributing](#contributing)
--   [Core Team 💻](#core-team-)
--   [Contributors ✨](#contributors-)
--   [Resources Used to build this project](#resources-used-to-build-this-project)
--   [Star History](#star-history)
-    -   [Made with ❤ and TypeScript ](#made-with--and-typescript-)
+- [Table of contents](#table-of-contents)
+- [How to Use](#how-to-use)
+    - [Attention ⚠](#attention-)
+- [Use themes](#use-themes)
+- [Available Themes](#available-themes)
+- [Customization](#customization)
+    - [Common Options](#common-options)
+- [Deploy on your own Replit instance](#deploy-on-your-own-replit-instance)
+    - [Follow the steps](#follow-the-steps)
+- [Deploy on your own Vercel instance](#deploy-on-your-own-vercel-instance)
+    - [First Method](#first-method)
+    - [Second Method](#second-method)
+    - [Finally](#finally)
+- [Contributing](#contributing)
+- [Core Team 💻](#core-team-)
+- [Contributors ✨](#contributors-)
+- [Resources Used to build this project](#resources-used-to-build-this-project)
+- [Star History](#star-history)
+    - [Made with ❤ and TypeScript ](#made-with--and-typescript-)
 
 ## How to Use
 
@@ -89,6 +89,7 @@ Customize the appearance of your Activity Graph however you want with URL params
 |   Arguments    |                  Description                  |                 Type of Value                  |
 | :------------: | :-------------------------------------------: | :--------------------------------------------: |
 |   `bg_color`   |            card's background color            |             hex code (without `#`)             |
+| `border_color` |              card's border color              |             hex code (without `#`)             |
 |    `color`     |            graph card's text color            |             hex code (without `#`)             |
 | `title_color`  |           graph card's title color            |             hex code (without `#`)             |
 |     `line`     |              graph's line color               |             hex code (without `#`)             |
@@ -119,7 +120,7 @@ Example:
 **Example:**
 
 ```md
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ashutosh00710&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ashutosh00710&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&border_color=ff0000)](https://github.com/ashutosh00710/github-readme-activity-graph)
 ```
 
 ## Deploy on your own Replit instance
